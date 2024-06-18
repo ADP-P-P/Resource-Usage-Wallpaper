@@ -1,0 +1,28 @@
+html,
+body,
+#app {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+#app {
+  background-color: #3e3e3e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Jetbrains Mono;
+  overflow: hidden;
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url(./jetbrains.ttf) format('truetype');
+}
